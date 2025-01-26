@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: rgb(13, 82, 136);
+    color: #f5f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    padding: 20% 20px;
+    border-radius: 5%;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f7;
+    color: #000;
+    
+
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+
+}
+h3{
+    margin-top: 30px;
+    font-size: 1rem;
+}
+input, select{
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 2px;
+
+}
+span{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.fix{
+    display: flex;
+    flex-direction: column;
+}
